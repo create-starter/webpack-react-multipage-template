@@ -1,0 +1,34 @@
+
+@import "normalize";
+@import "mixin";
+@import "commoncls";
+@import "utilities";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* https://css-tricks.com/international-box-sizing-awareness-day/ */
+*, *:before, *:after {
+  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+  -webkit-box-sizing: border-box; 
+  /* Firefox (desktop or Android) 28- */
+  -moz-box-sizing: border-box;
+  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-size: 100%!important;
+  background: #cce5f0;
+  height: 100%;
+  //PC界面上居中
+  max-width: 640px;
+  margin: 0 auto;
+}

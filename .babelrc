@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      }
+    }],
+    "react",
+    "stage-2"
+  ],
+  "plugins": ["transform-runtime","transform-react-jsx"],
+  "env": {
+    "test": {
+      "presets": ["env","react", "stage-2"]
+    }
+  }
+}

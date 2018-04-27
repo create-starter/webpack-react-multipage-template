@@ -1,0 +1,24 @@
+.pointer{
+  cursor: pointer;
+}
+
+.text-ellipsis{
+  overflow: hidden;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.clear-both{
+  clear: both;
+}
+
+//app 全局
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: #cce5f0
+}
+
+
